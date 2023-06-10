@@ -1,0 +1,79 @@
+.problem1{
+    padding: 5;
+    /* background-color: gray; */
+    font-size: 400%;
+    margin-top: -40%;
+    margin-left: 62%;
+}
+
+.problem2{
+    font-size: 400%;
+    margin-top: -3%;
+    margin-left: 62%;
+}
+
+.our-field{
+    justify-content: center;
+    margin-left: 67.3%;
+    border: 5px solid black;
+}
+
+.info{
+    font-size: 170%;
+    margin-top: 5%;
+    margin-left: 58.5%;
+}
+
+.winning-message{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .85);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 500%;
+    flex-direction: column;
+}
+
+.winning-message button{
+    background-color: white;
+    color: black;
+    padding: .5%;
+    font-size: 80%;
+}
+
+.winning-message button:hover{
+    border: white;
+    background-color: black;
+    color: white;
+}
+
+.winning-message.show{
+    display: flex;
+}
+
+.heading{
+    font-size: 300%;
+}
+
+.description{
+    font-size: 160%;
+    margin-right: 60%;
+    margin-left: 5%;
+}
+
+.clue{
+    font-size: 160%;
+    margin-left: 5%;
+    
+}
+
+.rules{
+    font-size: 160%;
+    margin-right: 60%;
+    margin-left: 5%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME N10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><b>Kiểm soát tình hình</b></div> <br><br><br>
+
+    <div class="description">Sau khi vào được kén cứu sinh, phi hành gia Yuri lại phải nhập một mật mã khác, chính là đáp án của câu đố dưới đây, để khởi động máy. Mật mã để nhập vào ô trống trung tâm là một ước số chung của tất cả các số hiển thị trên bảng điều khiển. Cú rơi tàu vừa rồi khá nặng khiến Yuri vẫn còn choáng đầu, vậy nên bạn hãy giúp anh ấy lần nữa nhé? Lời khuyên là nên cố gắng tính nhầm nếu có thể.</div> <br><br>
+
+    <div class="clue"><b>Gợi ý:</b> bắt đầu bằng số có ít ước số nhất.</div><br><br>
+
+    <div class="rules">
+        <b>Luật chơi và cách tính điểm:</b>
+        <ul>
+          <li>Bạn có thể nghĩ ngay đến việc spam "1" hoặc xét tính chẵn lẻ để có điểm một cách dễ dàng</li> <br>
+          <li>Để tránh điều này, những câu trả lời &le; 2 sẽ tính là <b>1 điểm</b>, còn lại là <b>2 điểm</b></li> 
+        </ul>
+    </div>
+
+    <div class="main-ui">
+        <p class="problem1"></p>
+        <p class="problem2"></p>
+        
+        <form action="" class="our-form">
+            <input type="text" autocomplete="off" class="our-field">
+            <!-- <button>SUBMIT</button> -->
+            <p class="info">Còn <span class="points-needed">20</span> điểm nữa để thắng và <span class="mistakes-allowed">5</span> lần sai.</p> 
+        </form>
+    </div>
+
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text>AMOGUS IS RIEL</div>
+        <button id="restartButton">RESTART</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
